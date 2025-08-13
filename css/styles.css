@@ -497,6 +497,7 @@ button {
     visibility: visible;
     pointer-events: auto;
  }
+ 
 
  .modal {
     position: absolute;
