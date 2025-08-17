@@ -324,7 +324,53 @@
     
 
     <div class="backdrop is-open">
-        <div class="modal"></div>
+        <div class="modal">
+            <button class="form-close-btn" type="button">
+
+            </button>
+
+            <p class="form-title">Leave your contacts and we will call you back</p>
+            
+            <form class="form-field">
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="field-name">Name</label>
+                
+                    <div class="form-field-input-wrapper">
+                    <input class="form-field-text-input" name="field_name" id="field-name" type="text">
+                    
+                    </div>
+                </div>
+
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="field-phone">Phone</label>
+                
+                    <div class="form-field-input-wrapper">
+                    <input class="form-field-text-input" name="field_phone" id="field-phone" type="tel">
+                    
+                    </div>
+                </div>
+
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="field-email">Email</label>
+                
+                    <div class="form-field-input-wrapper">
+                    <input class="form-field-text-input" name="field_email" id="field-email" type="email">
+                    
+                    </div>
+                </div>
+
+                <div class="form-field-wrapper">
+                    <label class="form-field-label" for="field-comment">Comment</label>
+                    <textarea class="form-field-textarea" name="field-comment" id="field-comment" placeholder="Text input"></textarea>
+                </div>
+                <div class="form-field-wrapper">
+                    <input type="checkbox" id="field-privacy">
+                    <label class="form-field-privacy" for="field-privacy">I accept the terms and conditions of the 
+                        <a class="highlight" href="">Privacy Policy</a> </label>
+                </div>
+                <button class="form-button-submit" type="submit">Send</button>
+            </form>
+        </div>
     </div>
     
 </body>
