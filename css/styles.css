@@ -517,6 +517,35 @@ button {
  .backdrop:not(.is-open) .modal {
     transform: translate(-50%, -50%), scale(1.5)
  }
+
+ .form-close-button {
+    position: absolute;
+    margin-top: 24px;
+    margin-right: 24px;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    fill: #e7e9fc;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+ }
+
+ .icons-form {
+    fill: #2E2F42
+ }
+
+ .icons-form:hover,
+ .icons-form:focus {
+    fill: #4d5ae5;
+ }
+
+ .form-field-input-wrapper svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translate(-50%);
+ }
  
  .form-title {
     font-weight: 500;
