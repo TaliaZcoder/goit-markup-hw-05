@@ -514,7 +514,7 @@ button {
 }
 
 .input-subscribe::placeholder {
-    color #ffffff;
+    color: #ffffff;
 }
 
 .btn-subscribe {
@@ -523,7 +523,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -587,7 +587,7 @@ button {
  }
 
  .backdrop:not(.is-open) .modal {
-    transform: translate(-50%, -50%), scale(1.5);
+    transform: translate(-50%, -50%) scale(1.5);
  }
 
  .form-close-btn {
